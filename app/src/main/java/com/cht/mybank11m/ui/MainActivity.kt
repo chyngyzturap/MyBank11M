@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
             AlertDialog.Builder(this@MainActivity)
                 .setTitle("Добавить счет")
                 .setView(this)
-                .setPositiveButton(getString(R.string.create_Account)){_,_, ->
+                .setPositiveButton("Создать счет"){_,_, ->
                     val account = Account(
                         name = nameInput.text.toString(),
                         balance = balanceInput.text.toString().toInt(),
