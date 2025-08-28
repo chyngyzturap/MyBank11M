@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
             AlertDialog.Builder(this@MainActivity)
                 .setTitle("Редактировать счет")
                 .setView(this)
-                .setPositiveButton("Обновить"){_,_, ->
+                .setPositiveButton(getString(R.string.edit_account)){_,_, ->
 
                     val updatedAccount = account.copy(
                         name = nameInput.text.toString(),

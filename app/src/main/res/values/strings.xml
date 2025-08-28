@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyBank11M</string>
+    <string name="edit_account">Изменить</string>
 </resources>
